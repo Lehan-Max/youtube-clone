@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.youtube-header-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    padding-left: 30px;
+}
+.hamburger{
+    width: 20px;
+    height: 17px;
+    align-self: center;
+}
+.youtube-logo{
+    width:50px;
+    height: 50px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+}
+.microphone{
+    height: 30px;
+    width: 27px;
+    align-self: center;
+    margin-left: 10px;
+}
+.search-bar{
+    width: 580px;
+    height: 25px;
+    align-self: center;
+}
+.account-notification-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+    padding-right: 30px;
+    position: relative;
+}
+.notificatio-count{
+    position: absolute;
+    top: 14px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    font-size: 10px;
+    width: 18px;
+    text-align: center;
+    right: 82px;
+}
+.account-logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-self: center;
+}
+.notification{
+    height: 20px;
+    width: 18px;
+    align-self: center;
+}
+.search-icon{
+    width: 27px;
+    height: 15px;
+    align-self: center;
+    background-color: gray;
+    padding: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+a{
+    align-self: center;
+    height: 30px;
+}
+.video-create{
+    width: 20px;
+    align-self: center;
+    height: 20px;
+}
+.home{
+    display: flex;
+    padding: 6px;
+    background-color: lightgrey;
+}
+.home-icon{
+    width: 20px;
+    height: 20px;
+}
+.explore{
+    display: flex;
+    padding: 6px;
+}
+.explore-icon{
+    width: 20px;
+    height: 20px;
+}
+.shorts{
+    display: flex;
+    padding: 6px;
+}
+.shorts-icon{
+    width: 20px;
+    height: 20px;
+}
+.subscriptions{
+    display: flex;
+    padding: 6px;
+}
+.subscriptions-icon{
+    width: 20px;
+    height: 20px;
+}
+.sidebar{
+    width: 200px;
+    padding: 10px;
+    border-right: 1px solid lightgrey;
+}
+.home-exp-shorts-sub{
+    margin: 0px 0px 10px 20px;
+}
+.home-exp-shorts-sub-text{
+    margin-left: 20px;
+    align-self: center;
+}
+.library{
+    display: flex;
+    padding: 6px;
+}
+.library-icon{
+    width: 20px;
+    height: 20px;
+}
+.history{
+    display: flex;
+    padding: 6px;
+}
+.history-icon{
+    width: 20px;
+    height: 20px;
+}
+.watch-later{
+    display: flex;
+    padding: 6px;
+}
+.watch-later-icon{
+    width: 20px;
+    height: 20px;
+}
+.likeed-videos{
+    display: flex;
+    padding: 6px;
+}
+.likeed-videos-icon{
+    width: 20px;
+    height: 20px;
+}
+.sidebar{
+    width: 200px;
+    padding: 10px;
+}
+.lib-his-watch-like{
+    margin: 0px 0px 10px 20px;
+}
+.lib-his-watch-like-text{
+    margin-left: 20px;
+    align-self: center;
+}
+.sub{
+    display: flex;
+    padding: 6px;
+}
+.sub-icon{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+.your-subscriptions{
+    margin: 10px 0px 0px 20px;
+}
+.sub-text{
+    margin-left: 20px;
+    align-self: center;
+}
+.arrow-icon{
+    width: 15px;
+    height: 15px;
+}
+.container{
+    display: flex;
+}
+.explore-block{
+    margin: 10px 0px 0px 20px;
+}
+.item{
+    width: 299px;
+    height: 236px;
+}
+.video-items{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    width: 100%;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    margin: 26px 50px;
+}
+.channel-logo{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.item-content{
+    display: flex;
+}
+.video-content{
+    margin-left: 10px;
+}
+.channel-name{
+    display: flex;
+}
+.verified{
+    height: 10px;
+    align-self: center;
+    padding-left: 5px;
+}
